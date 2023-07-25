@@ -1,8 +1,13 @@
+import Counter from "./pages/counterApp/Counter";
+import TodoApp from "./pages/todoApp/TodoApp";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <main>
+      <Counter />
+      <TodoApp />
+    </main>
+  );
+};
 
-export default App
+export default App;
