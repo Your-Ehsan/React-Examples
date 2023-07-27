@@ -6,8 +6,9 @@ const App = () => {
     <main>
       <Counter />
       <TodoApp />
-    </main>
+    </main> 
   );
 };
+
 
 export default App;
