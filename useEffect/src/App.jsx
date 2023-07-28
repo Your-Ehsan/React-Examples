@@ -1,7 +1,12 @@
+import FetchingData from "./examples/Fetchdata/FetchingData"
+import GeoLocation from "./examples/Geolocation/Geolocation"
 
 const App = () => {
   return (
-    <div>App</div>
+    <section>
+      {/* <FetchingData/> */}
+      <GeoLocation/>
+    </section>
   )
 }
 
